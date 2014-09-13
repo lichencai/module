@@ -83,5 +83,13 @@
     </dependency>  
     <!-- spring end --> 
 	
+	<!-- cglib begin -->
+	<dependency>
+		<groupId>cglib</groupId>
+		<artifactId>cglib-nodep</artifactId>
+		<version>3.1</version>
+	</dependency>
+	<!-- cglib end -->
+	
   </dependencies>
 </project>

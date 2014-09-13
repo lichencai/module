@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+	<bean class="org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator">
+		<property name="proxyTargetClass" value="true"></property>
+	</bean>
+	<bean id="performanceTraceAspect" class="aop.annotation.PerformanceTraceAspect">
+	</bean>
+	<bean id="foo" class="aop.annotation.Foo">
+	</bean>
+</beans>
